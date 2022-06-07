@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-size: 20px;
+    font-family: "Roboto Thin";
+    font-weight: 400;
+    text-align: left;
+    color: #333333;
+}
+.section {
+    float:left;
+    width: 100%;
+
+}
+.header{
+    position:fixed;
+    overflow: hidden;
+    z-index: 100;
+    height:160px;
+    background-color: deepskyblue;
+    padding: 10px 0;
+    background-image: linear-gradient(dodgerblue, deepskyblue);
+}
+.nav{
+    float: left;
+    margin-top:160px;
+    width: 100%;
+    background-image: linear-gradient(deepskyblue, dodgerblue );
+}
+
+.main{
+   float: left;
+
+}
+.footer{
+    background-color: deepskyblue;
+    background-image: linear-gradient(deepskyblue, dodgerblue );
+    float: left;
+    padding: 20px 0;
+    color: red;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.logo{
+    float:left;
+    width:100%
+}
+.header_logo{
+    float: left;
+    width:130px;
+    margin-left: 30px;
+}
+.header_slogan{
+    float:left;
+    margin-top:20px;
+    width:1000px;
+    font-style: italic;
+    font-family: "Times New Roman";
+    color: chartreuse;
+    font-size: 26px;
+
+}
+.menu{
+    width:80%;
+    float:left;
+    margin-left:5px;
+    color:white;
+    font-size: 30px;
+}
+.menu li{
+    list-style: none;
+    float: left;
+    margin-right: 25px;
+
+}
+.menu li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color:white;
+
+}
+.menu li a:hover{
+
+    color:pink;
+}
+.menu i{
+    margin-right:10px;
+}
+.dang_nhap{
+    float: right;
+    background-color: transparent;
+
+}
+
+.btn{
+    background-color: transparent;
+    border: transparent;
+    text-align: center;
+}
+.btn:hover{
+    background-color: transparent;
+    color: pink;
+}
+.btn:active{
+    background-color: transparent;
+}
+.modal-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36;
+}
+.form-group2{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.dang_ky{
+    float: right;
+
+}
+
+
+.dang_nhap a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    color:white;
+}
+.dang_nhap a:hover{
+
+    color:pink;
+}
+.dang_ky a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    color:white;
+}
+.dang_ky a:hover{
+
+    color:pink;
+}
+.footer_address{
+    float: left;
+    width: 200;
+}
+.footer_logo{
+
+    right: 30px;
+    bottom: 5px;
+}

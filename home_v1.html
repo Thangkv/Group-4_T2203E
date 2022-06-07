@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layout trang chu</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="owlcarousel/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="css/layout_v1.css"/>
+    <link rel="stylesheet" type="text/css" href="css/home_detail_v1.css"/>
+
+</head>
+<body>
+
+<header class="section header">
+
+    <div class="container">
+        <div class="logo">
+            <div class="header_logo">
+                <img src="images/logo2.png" width="120"/>
+            </div>
+            <div class="header_slogan">
+                Chiêu Mộ Nhân Tài <br>
+                Việc tốt Lương cao
+            </div>
+        </div>
+        <div class="menu">
+            <ul class="menu">
+                <li><a href="#"> <i class="fas fa-house"></i>Trang chủ</a></li>
+                <li><a href="#">Việc làm</a></li>
+                <li><a href="#">Mẫu CV</a></li>
+                <li><a href="#">Nhà tuyển dụng</a></li>
+                <li><a href="#">Ứng viên tìm việc</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Cẩm nang công việc</a></li>
+            </ul>
+        </div>
+
+    </div>
+</header>
+<section class="nav">
+    <div class="container">
+        <div class="dang_nhap">
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                Đăng Nhập
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content" >
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Đăng Nhập Để Tiếp Tục</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group2">
+                                <label for="exampleInputEmail1">Họ và Tên</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nguyễn Văn A">
+                            </div>
+
+                            <div class="form-group2">
+                                <label for="exampleInputEmail1">Địa chỉ email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="anv@gmail.com">
+                            </div>
+                            <div class="form-group2">
+                                <label for="exampleInputPassword1">Mật khẩu</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Đăng Nhập</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dang_nhap">
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">
+                Đăng Ký
+            </button>
+
+            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal2Label">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModal2Label">Đăng Ký Để Tiếp Tục</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group2">
+                                <label for="exampleInputEmail1">Họ và Tên</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nguyễn Văn A">
+                            </div>
+
+                            <div class="form-group2">
+                                <label for="exampleInputEmail1">Địa chỉ email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="anv@gmail.com">
+                            </div>
+                            <div class="form-group2">
+                                <label for="exampleInputPassword1">Mật khẩu</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                            </div>
+                            <div class="form-group2">
+                                <label for="exampleInputPassword1">Xác nhận mật khẩu</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Đăng ký</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section main">
+    <div class="row">
+    <div class="container">
+        <div class="search">
+            <img src="images/backdrop3.jpg" width="1200">
+            <div class="backdrop" ><img src="images/backdrop.jpg" width="1200"></div>
+
+            <div class="timkiem">
+                <form method="post" action="#">
+                    <div class="form-group">
+                        <input type="text" name="fullname" placeholder="Từ khóa, chức danh.." required/>
+                    </div>
+
+                    <div class="form-group">
+                        <select name="city">
+                            <option value="">Chọn địa điểm..</option>
+                            <optgroup label="Trong nước">
+                                <option value="hn">Hà Nội</option>
+                                <option>Thành phố Hồ CHí Minh</option>
+                                <option value="th">Thanh Hóa</option>
+                                <option value="na">Nghệ An</option>
+                            </optgroup>
+                            <optgroup label="Quốc tế">
+                                <option value="nyc">Freelancer</option>
+                                <option value="la">Youtuber</option>
+                                <option value="la">Streamer</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <select name="city">
+                            <option value="">Chọn ngành nghề..</option>
+                            <optgroup label="Trong nước">
+                                <option value="hn">Viễn Thông</option>
+                                <option value="sg">Công nghệ thông tin</option>
+                                <option value="th">Xây dựng</option>
+                                <option value="na">Giáo dục<</option>
+                            </optgroup>
+                            <optgroup label="Quốc tế">
+                                <option value="nyc">Freelancer</option>
+                                <option value="la">Youtuber</option>
+                                <option value="la">Streamer</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="form-group1">
+                        <button type="submit">Tìm kiếm</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+        <div class="content">
+            <div class="box">
+                <h3>Công Ty Hàng Đầu</h3>
+                <div class="title">
+                    <a href="https://www.vietnamworks.com/viec-lam-tai-mondelez-kinh-do-viet-nam-e124600-vn?utm_campaign=124600&utm_medium=viplogo&utm_source=vnw_homepage&utm_term=new-homepage" target="_blank" ><img src="images/cty1.jpg" width="100%"></a>
+                    <a target="_blank" href="https://www.mondelezinternational.com/About-Us"><h6>Mondelez Kinh Đô Việt Nam</h6></a>
+                </div>
+                <div class="title">
+                    <a target="_blank" href="https://www.vietnamworks.com/tim-viec-lam/nha-tuyen-dung/-3172370/?utm_campaign=3172370&utm_medium=viplogo&utm_source=vnw_homepage&utm_term=new-homepage"><img src="images/cty2.jpg"  width="100%"></a>
+                    <a target="_blank" href="https://www.mbs.com.vn/"><h6>Công Ty Cổ Phần Chứng Khoán MB</h6></a>
+                </div>
+                <div class="title">
+                    <a target="_blank" href="https://www.vietnamworks.com/company/CrystalMartinVietnam?utm_campaign=1360620&utm_medium=viplogo&utm_source=vnw_homepage&utm_term=new-homepage"><img src="images/cty3.jpg" width="100%"></a>
+                    <a target="_blank" href="https://vi-vn.facebook.com/TuyendungCrystal/"><h6>Công ty TNHH Crystal Martin (Việt Nam)</h6></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Ngành Nghề Nổi Bật</h3>
+
+                <div class="owl-carousel owl-theme">
+                    <a><div class="item"><img src="images/nganh1.jpg" width="1"></div></a>
+                    <a><div class="item"><img src="images/nganh2.jpg"></div></a>
+                    <a><div class="item"><img src="images/nganh3.jpg"></div></a>
+                    <a><div class="item"><img src="images/nganh4.jpg"></div></a>
+                    <a><div class="item"><img src="images/nganh5.jpg"></div></a>
+                    <a><div class="item"><img src="images/nganh6.jpg"></div></a>
+                    <a><div class="item"><img src="images/nganh7.jpg"></div></a>
+                    <a><div class="item"><img src="images/nganh8.jpg"></div></a>
+
+
+                </div>
+
+            </div>
+            <div class="box">
+                <h3>Việc Làm Tốt Nhất</h3>
+                <div class="title"></div>
+                <div class="title"></div>
+                <div class="title"></div>
+
+            </div>
+            <div class="box">
+                <h3>Tư Vấn Nghề Nghiệp</h3>
+                <div class="title"></div>
+                <div class="title"></div>
+                <div class="title"></div>
+
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar1">
+                <video controls autoplay loop width="360">
+                    <source src="medias/clip1.mp4"></source>
+                </video>
+                <video controls autoplay  loop width="360">
+                    <source src="medias/clip2.mp4"></source>
+                </video>
+            </div>
+            <div class="sidebar2">
+                <p>Nếu bạn quan tâm, hãy xem thêm các vị trí đang tuyển dụng qua các liên kết sau.</p>
+                <div class="icon"><a href=""><span class="fa-brands fa-instagram fa-3x"></span></a> </div>
+                <div class="icon1"><a href=""><span class="fa-brands fa-youtube fa-3x"></span></a> </div>
+                <div class="icon2"><a href=""><span class="fa-solid fa-envelope fa-3x"></span></a> </div>
+                <i class="fa-brands fa-facebook fa-4x"></i>
+                <i class="fa-brands fa-twitter fa-4x"></i>
+                <i class="fa-brands fa-linkedin fa-4x"></i>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<section class="section footer">
+    <div class="container">
+        <div class="footer_address">
+            Trụ sỏ chính: Số 8 Tôn Thất Thuyết
+            Email: contact@apptech
+            Copyright ©group4_t2203E
+        </div>
+        <div class="footer_logo">
+
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript" src="libs/jquery/jqueyv3_6.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script  src="owlcarousel/docs/assets/vendors/jquery.min.js"></script>
+<script  src="owlcarousel/dist/owl.carousel.min.js"></script>
+<script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:0,
+        nav:true,
+        responsive:{
+            10:{
+                items:1
+            },
+            1500:{
+                items:2
+            }
+        }
+    })
+</script>
+</body>
+</html>
