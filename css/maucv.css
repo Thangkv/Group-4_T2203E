@@ -1,0 +1,91 @@
+
+.TopCV{
+    background-image: url(../images/maucv1.png);
+    background-size: 100%;
+    padding:20px;
+    width: 1200px;
+    height: 400px;
+}
+
+.note1{
+    margin-top: 50px;
+    left: 280px;
+}
+
+a{
+    text-decoration: none   ;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box1{
+    margin-top: 50px;
+    width: 170px;
+    height: 40px;
+    background:greenyellow;
+    padding:10px 10px;
+    color: blue;
+}
+
+/*.box1 :hover {*/
+/*    background: white;*/
+/*}*/
+
+.tieude {
+    color: #042ba1;
+    text-align:center;
+    margin-top: 70px;
+}
+
+.video {
+    width: 40%;
+    float: left;
+}
+
+.phaivideo {
+    margin-top: 30px;
+    width: 45%;
+    float: right;
+    margin-left: 130px;
+}
+
+/*.tieude2 {*/
+/*    margin-top: 30px;*/
+/*    float: left;*/
+/*    text-align: center;*/
+/*}*/
+.GiuaCV{
+    float: left;
+    width: 1200px;
+}
+
+.MauCV{
+
+    float: left;
+    width: 1200px;
+}
+
+.owl-theme{
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+
+.row{
+
+    float: left;
+    width: 1200px;
+}
+
+.box2{
+    float: left;
+    text-align: center;
+    width: 170px;
+    height: 40px;
+    background:greenyellow;
+    padding:10px 10px;
+    color: blue;
+    margin-left: 470px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
