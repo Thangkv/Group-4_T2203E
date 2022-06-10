@@ -1,0 +1,54 @@
+.camnang p{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 80px;
+}
+.box{
+    border: 1px solid gainsboro;
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: #a7b2d2;
+}
+img.cangiua {
+    display: block; margin-left: auto; margin-right: auto;
+    width: 350px;
+}
+.text1{
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+}
+.text2{
+    font-weight: 300;
+    font-size: 15px;
+}
+.text3{
+    font-size: 20px;
+}
+.article{
+    font-weight: 300;
+    font-size: 15px;
+    color: black;
+}
+.content1{
+    border: 1px solid #c5d0ef;
+}
+.pic{
+    background-color: aliceblue;
+}
+.pic .article{
+    font-size: 20px;
+}
+.tinNoibat{
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
