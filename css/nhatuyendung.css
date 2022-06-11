@@ -1,64 +1,4 @@
-.header{
-    background-color: #ffffff;
-    border-bottom: 1px solid #cccccc;
-    padding: 20px 0;
-}
-.logo{
-    float: left;
-    width: 40%;
-}
 
-
-.toplinks{
-    float: right;
-    width: 40%;
-
-}
-
-.toplinks ul{
-    float: right;
-}
-.logo ul li{
-    float: left;
-    list-style: none;
-    margin-left: 25px;
-}
-.toplinks ul li{
-    float: left;
-    list-style: none;
-    margin-left: 25px;
-
-}
-.logo .logo-link{
-    font-size: 26px;
-    font-weight: 500;
-}
-.logo p{
-    font-size: 15px;
-}
-.toplinks a{
-    font-weight: 800;
-    line-height: 81px;
-    font-size: 30px;
-
-}
-.nav{
-    background-color: white;
-    padding: 20px 0;
-}
-.menu li{
-    float: left;
-    list-style: none;
-    margin-right: 25px;
-}
-.menu li.last{
-    float: right;
-    margin-right: 0;
-}
-.menu li a{
-    font-size: 15px;
-    font-weight: 600;
-}
 .main{
     margin-top:30px;
 }
@@ -114,5 +54,89 @@ a{
     color: deepskyblue;
     font-size: 20px;
 }
+.chu1{
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+    color: #7125f1;
+    font-size: 30px;
+}
+.chu2{
+    text-align: center;
 
+
+}
+
+
+/* Nút Để Mở Chatbox */
+.nut-mo-chatbox {
+    background-color:orange;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 280px;
+
+    font-size: 15px;
+}
+
+/* Ẩn chatbox mặc định */
+.Chatbox {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Thêm style cho form */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+/* thiết lập style textarea */
+.form-container textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 100px;
+}
+
+/*thiết lập style cho textarea khi được focus */
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Sthiết lập style cho nút trong form*/
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+/* Thiết lập màu nền cho nút đóng chatbox */
+.form-container .nut-dong-chatbox {
+    background-color: red;
+}
+
+/* Thêm hiệu ứng hover cho nút*/
+.form-container .btn:hover, .nut-mo-chatbox:hover {
+    opacity: 1;
+}
 

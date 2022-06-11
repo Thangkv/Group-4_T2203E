@@ -15,7 +15,6 @@
 
 
     <link rel="stylesheet" type="text/css" href="css/layout_v1.css"/>
-    <link rel="stylesheet" type="text/css" href="css/home_detail_v1.css"/>
     <link rel="stylesheet" href="css/nhatuyendung.css">
 
 
@@ -131,7 +130,7 @@
 <section class="section main">
     <div class="row">
         <div class="container">
-            <img src="images/td1.jpg" width="1200px" />
+            <img src="images/td1.jpg" width="1200px"/>
 
             <h1>Chúng tôi mang đến trải nghiệm dịch vụ
                 tốt nhất</h1>
@@ -191,8 +190,11 @@
             </div>
 
         </div>
+    <div class="container">
         <h1>Khách hàng của chúng tôi:</h1>
         <h2>CareerBuilder tự hào đã cung cấp dịch vụ cho hơn <b>17.000 +</b> doanh nghiệp hàng đầu tại Việt Nam</h2>
+    </div>
+     <div class="container">
         <div class="khung owl-carousel owl-theme">
             <div class="item">
                 <h4><img class="piccty" src="images/cty1.png" /></h4>
@@ -214,11 +216,24 @@
                 <h4><img class="piccty" src="images/cty9.png" /></h4>
                 <h4><img class="piccty" src="images/cty10.png" /></h4>
             </div>
-
-
         </div>
-
     </div>
+     </div>
+    </div>
+    <button class="nut-mo-chatbox" onclick="moForm()">Chat Với Nhóm 4 T2203E</button>
+    <div class="Chatbox" id="myForm">
+        <form action="" class="form-container">
+            <h1>Chatbox</h1>
+
+            <label for="msg"><b>Lời Nhắn</b></label>
+            <textarea placeholder="Bạn hãy nhập lời nhắn..." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Gửi</button>
+            <button type="button" class="btn nut-dong-chatbox" onclick="dongForm()">Đóng</button>
+        </form>
+    </div>
+    <script type="text/javascript" src="js/chatbox.js"></script>
+
 </section>
 <section class="section footer">
     <div class="container">
@@ -259,6 +274,16 @@
             }
         }
     })
+</script>
+<script type="text/javascript">
+    /*Hàm Mở Form*/
+    function moForm() {
+        document.getElementById("myForm").style.display = "block";
+    }
+    /*Hàm Đóng Form*/
+    function dongForm() {
+        document.getElementById("myForm").style.display = "none";
+    }
 </script>
 </body>
 </html>
