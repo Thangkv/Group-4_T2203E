@@ -1,0 +1,76 @@
+*{
+
+}
+.container_form{
+    float: left;
+    margin: 20px;
+    width: 21%
+}
+.tren{
+    margin-top: 40px;
+    background-color: #eff3f6;
+    height: 180px;
+    width: 1200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #bdbdbd;
+}
+.nganhnghe{
+    width: 220px;
+}
+.diadiem{
+    width: 220px;
+}
+.ndhs{
+    width: 220px;
+    height: 26.5px;
+}
+.duoi{
+    height:1350px;
+    background-color: #eff3f6;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #bdbdbd;
+}
+.duoi_header{
+    padding: 10px;
+
+}
+.container4{
+    padding-top: 20px;
+}
+.floatL {
+    float: left;
+    width: 23%;
+    padding: 10px;
+}
+.floatL h4{
+    color: #4688f1;
+    font-weight: 700;
+}
+.floatL p a{
+    text-decoration: none;
+    color: #606060;
+    font-size: 13px;
+}
+.timkiem1{
+    float: left;
+    width: 500px;
+    margin-left: 560px;
+    text-decoration: none;
+}
+.timkiem1 button {
+    background-color: #3ea6ff;
+    width: 120px;
+    height: 30px;
+}
+.timkiem1 button a{
+    color: #fafafa;
+    text-decoration: none;
+}
+.timkiem1 button:hover{
+    background-color: #00aaa7;
+}
+
+
+
+
