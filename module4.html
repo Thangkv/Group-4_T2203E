@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>layout trang chu</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="libs/owlcarousel/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="libs/owlcarousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+
+
+  <link rel="stylesheet" type="text/css" href="css/layout_v1.css"/>
+  <link rel="stylesheet" type="text/css" href="css/home_detail_v1.css"/>
+  <link rel="stylesheet" type="text/css" href="css/module4.css">
+
+</head>
+<body>
+
+<header class="section header">
+
+  <div class="container">
+    <div class="logo">s
+      <div class="header_logo">
+        <img src="images/logo2.png" width="120"/>
+      </div>
+      <div class="header_slogan">
+        Chiêu Mộ Nhân Tài <br>
+        Việc tốt Lương cao
+      </div>
+    </div>
+    <div class="menu">
+      <ul class="menu">
+        <li><a href="home_v1.html"> <i class="fas fa-house"></i>Trang chủ</a></li>
+        <li><a href="vieclam.html">Việc làm</a></li>
+        <li><a href="ghepmaucv.html">Mẫu CV</a></li>
+        <li><a href="nhatuyendung.html">Nhà tuyển dụng</a></li>
+        <li><a href="module4.html">Ứng viên tìm việc</a></li>
+        <li><a href="gheplienhe.html">Liên hệ</a></li>
+        <li><a href="camnangvieclam.html">Cẩm nang công việc</a></li>
+      </ul>
+    </div>
+
+  </div>
+</header>
+<section class="nav">
+  <div class="container">
+    <div class="dang_nhap">
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Đăng Nhập
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content" >
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Đăng Nhập Để Tiếp Tục</h4>
+            </div>
+            <div class="modal-body">
+              <div class="form-group2">
+                <label for="exampleInputEmail1">Họ và Tên</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nguyễn Văn A">
+              </div>
+
+              <div class="form-group2">
+                <label for="exampleInputEmail1">Địa chỉ email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="anv@gmail.com">
+              </div>
+              <div class="form-group2">
+                <label for="exampleInputPassword1">Mật khẩu</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Đăng Nhập</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dang_nhap">
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">
+        Đăng Ký
+      </button>
+
+      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal2Label">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModal2Label">Đăng Ký Để Tiếp Tục</h4>
+            </div>
+            <div class="modal-body">
+              <div class="form-group2">
+                <label for="exampleInputEmail1">Họ và Tên</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nguyễn Văn A">
+              </div>
+
+              <div class="form-group2">
+                <label for="exampleInputEmail1">Địa chỉ email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="anv@gmail.com">
+              </div>
+              <div class="form-group2">
+                <label for="exampleInputPassword1">Mật khẩu</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+              </div>
+              <div class="form-group2">
+                <label for="exampleInputPassword1">Xác nhận mật khẩu</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Đăng ký</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section main">
+  <div class="container">
+    <div class="tren">
+      <div class="container_form">
+        <h3>Nội dung hồ sơ</h3>
+        <input class="ndhs" type="text" name="fullname" placeholder="nhập từ khóa..." required/>
+      </div>
+      <div class="container_form ">
+        <h3>Ngành nghề</h3>
+        <select name="city" class="nganhnghe">
+          <option value="">Tất cả các ngành nghề</option>
+          <optgroup label="Bán hàng/Tiếp thị">
+            <option value="hn">Bán lẻ / Bán sỉ</option>
+            <option value="sg">Tiếp thị trực tuyến</option>
+            <option value="hp">Tiếp thị / Marketing</option>
+            <option value="hp">Bán hàng / Kinh doanh
+            </option>
+          </optgroup>
+          <optgroup label="Dịch vụ">
+            <option value="nyc">Phi chính phủ / Phi lợi nhuận</option>
+            <option value="La">Vận chuyển / Giao nhận / Kho vận</option>
+            <option value="La">Lao động phổ thông</option>
+            <option value="La">Dịch vụ khách hàng</option>
+            <option value="La">Tư vấn</option>
+            <option value="La">An Ninh / Bảo Vệ</option>
+            <option value="La">Bưu chính viễn thông</option>
+            <option value="La">Luật / Pháp lý</option>
+          </optgroup>
+          <optgroup label="Khoa học">
+            <option value="hn">Lâm Nghiệp</option>
+            <option value="sg">Thủy sản / Hải sản</option>
+            <option value="hp">Công nghệ thực phẩm / Dinh dưỡng</option>
+            <option value="hp">Thống kê</option>
+            <option value="hp">Nông nghiệp</option>
+            <option value="hp">Hàng hải</option>
+            <option value="hp">Công nghệ sinh học</option>
+            <option value="hp">Trắc địa / Địa Chất</option>
+            <option value="hp">Thủy lợi</option>
+            <option value="hp">Chăn nuôi / Thú y</option>
+          </optgroup>
+          <optgroup label="Nhóm ngành khác">
+            <option value="hn">Ngành khác</option>
+            <option value="sg">mới tốt nghiệp,thực tập</option>
+          </optgroup>
+
+        </select>
+      </div>
+      <div class="container_form">
+        <h3>Địa điểm</h3>
+        <select name="city" class="diadiem">
+          <option value="">Tất cả các địa điểm</option>
+          <optgroup label="Việt Nam">
+            <option value="hn">Hà Nội</option>
+            <option value="sg">TP HCM</option>
+            <option value="nb">Ninh Bình</option>
+            <option value="hn">Hà Nam</option>
+            <option value="hd">Hải Dương</option>
+            <option value="nđ">Nam Định</option>
+            <option value="hy">Hưng Yên</option>
+            <option value="ls">Lạng Sơn</option>
+            <option value="lc">Lào Cai</option>
+            <option value="th">Thanh Hóa</option>
+            <option value="hg">Hà Giang</option>
+            <option value="na">Nghệ An</option>
+          </optgroup>
+          <optgroup label="Mỹ">
+            <option value="nyc">New york</option>
+            <option value="La">LA</option>
+          </optgroup>
+        </select>
+      </div>
+      <div class="container_form">
+        <h3>Trạng thái tìm việc</h3>
+        <select name="city">
+          <option value="">Tất cả</option>
+          <option value="">Ứng viên tìm việc khẩn cấp</option>
+        </select>
+      </div>
+      <div class="timkiem1">
+        <button type="submit"><a>tìm kiếm</a></button>
+      </div>
+    </div>
+
+    <div class="duoi">
+      <div class="duoi_header">
+        <h2>Ngành nghề</h2>
+      </div>
+      <div class="container4">
+        <div class="cot1 floatL">
+          <h4>BÁN HÀNG/TIẾP THỊ</h4>
+          <hr>
+          <br>
+          <p><a href="#">Bán lẻ / Bán sỉ</a></p>
+          <p><a href="#">Tiếp thị trực tuyến</a></p>
+          <p><a href="#">Tiếp thị / Marketing</a></p>
+          <p><a href="#">Bán hàng / Kinh doanh</a></p>
+          <br>
+          <h4>DỊCH VỤ</h4>
+          <hr>
+          <br>
+          <p><a href="#">Phi chính phủ / Phi lợi nhuận</a></p>
+          <p><a href="#">Vận chuyển / Giao nhận / Kho vận</a></p>
+          <p><a href="#">Lao động phổ thông</a></p>
+          <p><a href="#">Dịch vụ khách hàng</a></p>
+          <p><a href="#">Tư vấn</a></p>
+          <p><a href="#">An Ninh / Bảo Vệ</a></p>
+          <p><a href="#">Bưu chính viễn thông</a></p>
+          <p><a href="#">Luật / Pháp lý</a></p>
+          <br>
+          <h4>CHĂM SÓC SỨC KHỎE</h4>
+          <hr>
+          <br>
+          <p><a href="#">Dược phẩm</a></p>
+          <p><a href="#">Y tế / Chăm sóc sức khỏe</a></p>
+          <br>
+          <h4>HÀNG TIÊU DÙNG</h4>
+          <hr>
+          <br>
+          <p><a href="#">Thực phẩm & Đồ uống</a></p>
+          <p><a href="#">Hàng gia dụng / Chăm sóc cá nhân</a></p>
+
+        </div>
+        <div class="cot2 floatL">
+          <h4>MÁY TÍNH/CÔNG NGHỆ THÔNG TIN</h4>
+          <hr>
+          <br>
+          <p><a href="#">CNTT - Phần cứng / Mạng</a></p>
+          <p><a href="#">CNTT - Phần mềm</a></p>
+          <br>
+          <h4>HÀNH CHÍNH / NHÂN SỰ</h4>
+          <hr>
+          <br>
+          <p><a href="#">Biên phiên dịch</a></p>
+          <p><a href="#">Hành chính / Thư ký</a></p>
+          <p><a href="#">Nhân sự</a></p>
+          <p><a href="#">Quản lý điều hành</a></p>
+          <br>
+          <h4>KẾ TOÁN / TÀI CHÍNH</h4>
+          <hr>
+          <br>
+          <p><a href="#">Bảo hiểm</a></p>
+          <p><a href="#">Chứng khoán</a></p>
+          <p><a href="#">Tài chính / Đầu tư</a></p>
+          <p><a href="#">Kế toán / Kiểm toán</a></p>
+          <p><a href="#">Ngân hàng</a></p>
+          <br>
+          <h4>TRUYỀN THÔNG / MEDIA</h4>
+          <hr>
+          <br>
+          <p><a href="#">Quảng cáo / Đối ngoại / Truyền Thông</a></p>
+          <p><a href="#">Giải trí</a></p>
+          <p><a href="#">Mỹ thuật / Nghệ thuật / Thiết kế</a></p>
+          <p><a href="#">Truyền hình / Báo chí / Biên tập</a></p>
+          <p><a href="#">Tổ chức sự kiện</a></p>
+
+        </div>
+        <div class="cot3 floatL">
+          <h4>KỸ THUẬT</h4>
+          <hr>
+          <br>
+          <p><a href="#">Cơ khí / Ô tô / Tự động hóa</a></p>
+          <p><a href="#">Điện / Điện tử / Điện lạnh</a></p>
+          <p><a href="#">Hóa học</a></p>
+          <p><a href="#">Môi trường</a></p>
+          <p><a href="#">Dầu khí</a></p>
+          <p><a href="#">Khoáng sản</a></p>
+          <p><a href="#">Bảo trì / Sửa chữa</a></p>
+          <br>
+          <h4>GIÁO DỤC / ĐÀO TẠO</h4>
+          <hr>
+          <br>
+          <p><a href="#">Thư viện</a></p>
+          <p><a href="#">Giáo dục / Đào tạo</a></p>
+          <br>
+          <h4>GIÁO DỤC / ĐÀO TẠO</h4>
+          <hr>
+          <br>
+          <p><a href="#">Lâm Nghiệp</a></p>
+          <p><a href="#">Thủy sản / Hải sản</a></p>
+          <p><a href="#">Công nghệ thực phẩm / Dinh dưỡng</a></p>
+          <p><a href="#">Thống kê</a></p>
+          <p><a href="#">Nông nghiệp</a></p>
+          <p><a href="#">Hàng hải</a></p>
+          <p><a href="#">Công nghệ sinh học</a></p>
+          <p><a href="#">Trắc địa / Địa Chất</a></p>
+          <p><a href="#">Thủy lợi</a></p>
+          <p><a href="#">Chăn nuôi / Thú y</a></p>
+
+
+
+        </div>
+        <div class="cot4 floatL">
+          <h4>SẢN XUẤT</h4>
+          <hr>
+          <br>
+          <p><a href="#">Thu mua / Vật tư</a></p>
+          <p><a href="#">Sản xuất / Vận</a></p>
+          <p><a href="#">hành sản xuất</a></p>
+          <p><a href="#">Xuất nhập khẩu</a></p>
+          <p><a href="#">Dệt may / Da</a></p>
+          <p><a href="#">giày / Thời trang</a></p>
+          <p><a href="#">In ấn / Xuất bản</a></p>
+          <p><a href="#">An toàn lao động</a></p>
+          <p><a href="#">Quản lý chất lượng (QA/QC)</a></p>
+          <p><a href="#">Đồ gỗ</a></p>
+          <br>
+          <h4>XÂY DỰNG</h4>
+          <hr>
+          <br>
+          <p><a href="#">Nội ngoại thất</a></p>
+          <p><a href="#">Bất động sản</a></p>
+          <p><a href="#">Kiến trúc</a></p>
+          <p><a href="#">Xây dựng</a></p>
+          <br>
+          <h4>KHÁCH SẠN / DU LỊCH</h4>
+          <hr>
+          <br>
+          <p><a href="#">Du lịch</a></p>
+          <p><a href="#">Nhà hàng / Khách sạn</a></p>
+          <p><a href="#">Hàng không</a></p>
+          <br>
+          <h4>NHÓM NGÀNH KHÁC</h4>
+          <hr>
+          <br>
+          <p><a href="#">Mới tốt nghiệp / Thực tập</a></p>
+          <p><a href="#">Ngành khác</a></p>
+
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+</section>
+<section class="section footer">
+  <div class="container">
+    <div class="footer_address">
+      <p>Trụ sở chính: <i>Số 8 Tôn Thất Thuyết, Mỹ Đình, TP.Hà Nội.</i>  Email: <i>group4_t2203e@fpt.edu.vn </i></p>
+      <p>    Copyright <i>©Group4_T2203E,</i></p>
+    </div>
+    <div class="footer_logo">
+      <a><i class="fa-brands fa-facebook fa-2x"></i></a>
+      <a><i class="fa-brands fa-linkedin fa-2x"></i></a>
+      <a><i class="fa-brands fa-twitter fa-2x"></i></a>
+    </div>
+  </div>
+</section>
+s
+<script type="text/javascript" src="libs/jquery/jqueyv3_6.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script  src="libs/owlcarousel/docs/assets/vendors/jquery.min.js"></script>
+<script  src="libs/owlcarousel/dist/owl.carousel.min.js"></script>
+<script type="text/javascript">
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    responsive:{
+      10:{
+        items:1
+      },
+      1500:{
+        items:2
+      }
+    }
+  })
+</script>
+</body>
+</html>

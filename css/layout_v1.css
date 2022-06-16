@@ -40,7 +40,7 @@ body{
     background-image: linear-gradient(deepskyblue, dodgerblue );
     float: left;
     padding: 20px 0;
-    color: red;
+    color: #941818;
 }
 .container {
     width: 1200px;
@@ -65,10 +65,9 @@ body{
     font-family: "Times New Roman";
     color: chartreuse;
     font-size: 26px;
-
 }
 .menu{
-    width:80%;
+    width:95%;
     float:left;
     margin-left:5px;
     color:white;
@@ -97,7 +96,6 @@ body{
 .dang_nhap{
     float: right;
     background-color: transparent;
-
 }
 
 .btn{
@@ -122,14 +120,11 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 .dang_ky{
     float: right;
 
 }
-
-
 .dang_nhap a{
     text-decoration: none;
     font-weight: 500;
@@ -155,7 +150,10 @@ body{
     width: 200;
 }
 .footer_logo{
-
+    float: right;
     right: 30px;
     bottom: 5px;
+}
+.footer_logo i{
+    margin: 10px;
 }

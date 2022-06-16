@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layout trang chu</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="libs/owlcarousel/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owlcarousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="libs/nivoslider/default/default.css">
+    <link rel="stylesheet" href="libs/nivoslider/nivo-slider.css">
+
+    <link rel="stylesheet" type="text/css" href="css/layout_v1.css"/>
+    <link rel="stylesheet" type="text/css" href="css/vieclam.css"/>
+
+</head>
+<body>
+
+<header class="section header">
+
+    <div class="container">
+        <div class="logo">
+            <div class="header_logo">
+                <img src="images/logo2.png" width="120"/>
+            </div>
+            <div class="header_slogan">
+                Chiêu Mộ Nhân Tài <br>
+                Việc tốt Lương cao
+            </div>
+        </div>
+        <div class="menu">
+            <ul class="menu">
+                <li><a href="home_v1.html"> <i class="fas fa-house"></i>Trang chủ</a></li>
+                <li><a href="vieclam.html">Việc làm</a></li>
+                <li><a href="ghepmaucv.html">Mẫu CV</a></li>
+                <li><a href="nhatuyendung.html">Nhà tuyển dụng</a></li>
+                <li><a href="module4.html">Ứng viên tìm việc</a></li>
+                <li><a href="gheplienhe.html">Liên hệ</a></li>
+                <li><a href="camnangvieclam.html">Cẩm nang công việc</a></li>
+            </ul>
+        </div>
+
+    </div>
+</header>
+<section class="nav">
+    <div class="container">
+        <div class="dang_nhap">
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                Đăng Nhập
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content" >
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Đăng Nhập Để Tiếp Tục</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group2">
+                                <label for="exampleInputEmail1">Họ và Tên</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nguyễn Văn A">
+                            </div>
+
+                            <div class="form-group2">
+                                <label for="exampleInputEmail1">Địa chỉ email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="anv@gmail.com">
+                            </div>
+                            <div class="form-group2">
+                                <label for="exampleInputPassword1">Mật khẩu</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Đăng Nhập</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dang_nhap">
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">
+                Đăng Ký
+            </button>
+
+            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal2Label">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModal2Label">Đăng Ký Để Tiếp Tục</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group2">
+                                <label for="exampleInputEmail1">Họ và Tên</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nguyễn Văn A">
+                            </div>
+
+                            <div class="form-group2">
+                                <label for="exampleInputEmail1">Địa chỉ email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="anv@gmail.com">
+                            </div>
+                            <div class="form-group2">
+                                <label for="exampleInputPassword1">Mật khẩu</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                            </div>
+                            <div class="form-group2">
+                                <label for="exampleInputPassword1">Xác nhận mật khẩu</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Đăng ký</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section main">
+    <div class="row">
+        <div class="container theme-default">
+            <div class="banner">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/vieclam_a1.jpg" data-thumb="images/vieclam_a1.jpg" alt="" data-transition="slideInLeft" />
+                    <img src="images/vieclam_a2.jpg" data-thumb="images/vieclam_a2.jpg" alt=""  data-transition="slideInRight" />
+                    <img src="images/vieclam_a3.jpg" data-thumb="images/vieclam_a3.jpg" alt="" data-transition="slideInLeft" />
+                    <img src="images/vieclam_a4.jpg" data-thumb="images/vieclam_a4.jpg" alt="" data-transition="slideInRight"  />
+                </div>
+            </div>
+            <div class="contentdown">
+                <div class="">
+                    <h3>Việc Làm Tốt Nhất</h3>
+                    <div class="work">
+                        <div> <img src="images/vieclam1.jpg"></div>
+                        <div class="text1">
+                            <a href="https://careerbuilder.vn/vi/tim-viec-lam/thi-cong-xay-dung-vincons-chuyen-vien-ke-hoach.35B99674.html">
+                                <h4>Thi công xây dựng Vincons - Chuyên viên Kế hoạch</h4></a>
+                            <h4>VinHomes - Công ty xây dựng Vincons</h4>
+                            <h6> $ Lương: 20 Tr - 30 Tr VNĐ</h6>
+                            <h4> <i class="fa-solid fa-location-dot"></i>Hà Nội | Hưng Yên</h4>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <div> <img src="images/vieclam2.jpg"></div>
+                        <div class="text1">
+                            <a href="https://careerbuilder.vn/vi/tim-viec-lam/assistant-brand-manager.35B9963E.html">
+                                <h4>Assistant Brand Manager</h4></a>
+                            <h4>CÔNG TY TNHH CÔNG NGHỆ THỰC PHẨM MIKO</h4>
+                            <h6> $ Lương: Cạnh tranh</h6>
+                            <h4> <i class="fa-solid fa-location-dot"></i>TP Hồ Chí Minh</h4>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <div> <img src="images/vieclam3.jpg"></div>
+                        <div class="text1">
+                            <a href="https://careerbuilder.vn/vi/tim-viec-lam/tro-ly-pho-giam-doc-dong-nai-chinese-eng-1000.35B99670.html">
+                                <h4>TRỢ LÝ PHÓ GIÁM ĐỐC (ĐỒNG NAI- CHINESE/ENG- 1000$)</h4></a>
+                            <h4>Công Ty Cổ Phần Đầu Tư VJC</h4>
+                            <h6> $ Lương: 1000$ - 2000$</h6>
+                            <h4> <i class="fa-solid fa-location-dot"></i>Đồng Nai | TP Hồ Chí Minh | Bình Dương</h4>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <div> <img src="images/vieclam4.jpg"></div>
+                        <div class="text1">
+                            <a href="https://www.vietnamworks.com/chuyen-vien-quan-tri-tai-chinh-16-1519868-jv/?source=searchResults&searchType=2&placement=1519869&sortBy=date">
+                                <h4>CHUYÊN VIÊN QUẢN TRỊ TÀI CHÍNH</h4></a>
+                            <h4>Công Ty Cổ Phần Kangaroo</h4>
+                            <h6> $ Lương: 1500$ - 2000$</h6>
+                            <h4> <i class="fa-solid fa-location-dot"></i>Hà Nội | TP Hồ Chí Minh </h4>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <div> <img src="images/vieclam5.jpg"></div>
+                        <div class="text1">
+                            <a href="https://www.vietnamworks.com/data-scientist-48-1-1-1-1-1-1-2-2-1517188-jv/?source=searchResults&searchType=2&placement=1517189&sortBy=date">
+                                <h4>DATA SCIENTIST/h4></a>
+                            <h4>FPT TELECOM</h4>
+                            <h6> $ Lương: 700$ - 2000$</h6>
+                            <h4> <i class="fa-solid fa-location-dot"></i>TP Hồ Chí Minh | Hà Nội</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="title">
+                <h3>VIỆC HOT</h3>
+            </div>
+            <div class="advert">
+
+                <a href=""><img src="images/vieclam_a15.jpg" width="340"></a>
+                <a href=""><img src="images/vieclam_a16.jpg" width="340"></a>
+                <a href=""><img src="images/vieclam_a17.jpg" width="340"></a>
+                <a href=""><img src="images/vieclam_a18.jpg" width="340"></a>
+                <a href=""><img src="images/vieclam_a19.jpg" width="340"></a>
+                <a href=""><img src="images/vieclam_a20.jpg" width="340"></a>
+                <a href=""><img src="images/vieclam_a21.jpg" width="340"></a>
+
+            </div>
+            <div class="slide_bar">
+                <div class="owl-carousel owl-theme">
+                    <a><div class="item"><img src="images/vieclam_a6.jpg"></div></a>
+                    <a><div class="item"><img src="images/vieclam_a7.jpg"></div></a>
+                    <a><div class="item"><img src="images/vieclam_a8.jpg"></div></a>
+                    <a><div class="item"><img src="images/vieclam_a9.jpg"></div></a>
+                    <a><div class="item"><img src="images/vieclam_a10.jpg"></div></a>
+                    <a><div class="item"><img src="images/vieclam_a11.jpg"></div></a>
+                    <a><div class="item"><img src="images/vieclam_a12.jpg"></div></a>
+                    <a><div class="item"><img src="images/vieclam_a13.jpg"></div></a>
+                    <a><div class="item"><img src="images/vieclam_a14.jpg"></div></a>
+                </div>
+
+            </div>
+            <div class="contentup">
+                <div class="box">
+                    <h3>Việc Theo Ngành Nghề</h3>
+                    <div class="offer">
+                        <div class="icon">
+                            <i class="fa-solid fa-hotel fa-2x"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Khách Sạn/Nhà Hàng</h5>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <div class="icon">
+                            <i class="fa-solid fa-user fa-2x"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Nhân Sự/Hành Chính</h5>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <div class="icon">
+                            <i class="fa-solid fa-computer fa-2x"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Công Nghệ Thông Tin</h5>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <div class="icon">
+                            <i class="fa-solid fa-gears fa-2x"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Sản xuất</h5>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <div class="icon">
+                            <i class="fa-solid fa-compass-drafting fa-2x"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Thiết Kế</h5>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <div class="icon">
+                            <i class="fa-solid fa-bullhorn fa-2x"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Quảng Cáo/Marketing</h5>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <div class="icon">
+                            <i class="fa-solid fa-people-carry-box fa-2x"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Lao Động Phổ Thông</h5>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <div class="icon">
+                            <i class="fa-solid fa-user-nurse fa-2x"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Y Tế</h5>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <div class="icon">
+                            <i class="fa-solid fa-user-graduate fa-2x"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Giáo Dục</h5>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <div class="icon">
+                            <i class="fa-solid fa-truck fa-2x"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Vận Tải/Kho Vận</h5>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+</section>
+<section class="section footer">
+    <div class="container">
+        <div class="footer_address">
+            <p>Trụ sở chính: <i>Số 8 Tôn Thất Thuyết, Mỹ Đình, TP.Hà Nội.</i>  Email: <i>group4_t2203e@fpt.edu.vn </i></p>
+            <p>    Copyright <i>©Group4_T2203E,</i></p>
+        </div>
+        <div class="footer_logo">
+            <a><i class="fa-brands fa-facebook fa-2x"></i></a>
+            <a><i class="fa-brands fa-linkedin fa-2x"></i></a>
+            <a><i class="fa-brands fa-twitter fa-2x"></i></a>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript" src="libs/jquery/jqueyv3_6.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script type="text/javascript">
+
+    $('[data-toggle="tooltip"]').tooltip()
+
+</script>
+<script type="text/javascript" src="libs/nivoslider/jquery.nivo.slider.js">
+</script>
+<script type="text/javascript">
+
+    $('#slider').nivoSlider({
+        controlNavThumbs: false
+    });
+
+</script>
+<script  src="libs/owlcarousel/docs/assets/vendors/jquery.min.js"></script>
+<script  src="libs/owlcarousel/dist/owl.carousel.min.js"></script>
+<!--<script type="text/javascript">-->
+<!--    $(document).ready(function(){-->
+<!--        $(".owl-carousel").owlCarousel();-->
+<!--    })-->
+<!--</script>-->
+<script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:0,
+        nav:true,
+        responsive:{
+            10:{
+                items:1
+            },
+            500:{
+                items:2
+            },
+            1500:{
+                items:3
+            }
+        }
+    })
+</script>
+</body>
+</html>

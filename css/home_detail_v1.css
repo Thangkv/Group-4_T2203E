@@ -90,7 +90,6 @@
 .box{
     float: left;
     width: 98%;
-
     padding: 20px;
     border-radius: 20px;
     margin:10px;
@@ -102,6 +101,8 @@
     width: 30%;
     margin-left: 16px;
     text-align: center;
+    background-color: #d8f1fc;
+    border-radius: 10px;
 }
 h3{
     font-family: Arial;
@@ -127,15 +128,24 @@ a img:hover{
 .sidebar2 {
     float:left;
     padding: 10px;
-    margin-left: 10px;
-    background-color:  snow;
+    margin-bottom: 10px;
+    /*background-color:  snow;*/
+    background-color: #d8f1fc;
+    border-radius: 10px;
 }
 .sidebar2 i{
     display:block;
     color: dodgerblue;
     text-align:center;
-    margin:10px 0;
+    margin:8px 0;
+    padding: 5px;
+    background-color:transparent;
 
+}
+.sidebar2 a i:hover{
+    border: transparent;
+    line-grid: unset;
+   color:  greenyellow;
 }
 .sidebar2 span{
     text-align:center;
@@ -146,13 +156,17 @@ a img:hover{
     color:blue;
     margin:0 35%;
 }
+.sidebar2 h6{
+    color: #3a945b;
+    margin-bottom: 5px;
+}
 .icon{
     background-image: linear-gradient(to bottom left,#8E37C7,#8E37C7,orangered,yellow);
     width: 80px;
     height: 80px;
     border-radius: 50%;
     overflow: hidden;
-    margin: 12px auto;
+    margin: 80px auto;
 }
 .icon span{
     margin-top: 11px;
@@ -167,7 +181,7 @@ a img:hover{
     height: 80px;
     border-radius: 50%;
     overflow: hidden;
-    margin: 12px auto;
+    margin: 80px auto;
 }
 .icon1 span{
     margin-top: 11px;
@@ -182,7 +196,7 @@ a img:hover{
     height: 80px;
     border-radius: 50%;
     overflow: hidden;
-    margin: 12px auto;
+    margin: 80px auto;
 }
 .icon2 span{
     margin-top: 12px;
@@ -190,4 +204,90 @@ a img:hover{
 }
 .icon2 a span:hover{
     color: greenyellow;
+}
+.offer{
+    float: left;
+    margin: 10px;
+    width: 350px;
+    height: 200px;
+    background-color: #d8f1fc;
+    border-radius: 10px;
+}
+.offer i{
+    float: left;
+    width: 20%;
+
+    padding: 20px;
+    color: #aadff8;
+}
+.offer p{
+    font-size: 15px;
+}
+.text{
+    float: left;
+    width: 80%;
+    padding: 5px;
+    text-justify: auto;
+}
+.link{
+    float: left;
+
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    background-color: #b7e1f5;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.work{
+    width: 98%;
+    float: left;
+    margin: 10px;
+    background-color: #d8f1fc;
+    border-radius: 10px;
+}
+.work img{
+    float: left;
+    width: 20%;
+    padding: 20px;
+    color: #aadff8;
+}
+.work h6{
+    color: #3a945b;
+    margin-top: 0;
+}
+.text i{
+    margin-right: 10px;
+}
+
+.box-animation{
+  animation-name: moveBox;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveBox {
+    /*from{*/
+    /*    transform: translateX(0);*/
+    /*}*/
+    /*to {*/
+    /*    transform: translateX(100px);*/
+    /*}*/
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translate(50px,0);
+    }
+    50% {
+        transform: translate(-50px,0);
+    }
+    75% {
+        transform: translate(50,0px);
+    }
+    100% {
+        transform: translate(-50,0);
+    }
 }
